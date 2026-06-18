@@ -24,17 +24,9 @@ class ProjetoCreate(BaseModel):
     orcamento_teto: float
     data_limite: date
      
-
-
-
-
 class FornecedorCreate(BaseModel):  
     nome_empresa: str
     categoria: str   
-
-
-
-
 
 class LancamentoCreate(BaseModel):
     projeto_id: int
@@ -45,9 +37,6 @@ class LancamentoCreate(BaseModel):
 class LancamentoUpdate(BaseModel):
     valor_contrato: float
     status_pagamento: str
-
-
-
 
 #----------------------------------------------
 # AS NOSSAS ROTAS
